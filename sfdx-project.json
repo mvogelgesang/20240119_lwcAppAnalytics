@@ -1,0 +1,19 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true,
+      "package": "lwcAppAnalytics",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "versionDescription": ""
+    }
+  ],
+  "name": "20240119_lwcAppAnalytics",
+  "namespace": "mvpbo2",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "60.0",
+  "packageAliases": {
+    "lwcAppAnalytics": "0HoHs000000blgrKAA"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "orgName": "mvogelgesang company",
+  "edition": "Developer",
+  "features": ["EnableSetPasswordInApi","EinsteinGPTForDevelopers"],
+  "hasSampleData": true,
+  "release": "preview",
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    },
+    "securitySettings": {
+      "sessionSettings": {
+        "sessionTimeout": "TwelveHours"
+      }
+    }
+  }
+}
