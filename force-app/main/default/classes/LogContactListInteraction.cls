@@ -1,8 +1,8 @@
-public class logInteraction {
-    public Enum ViewLayouts { TABLE, CARD }
+public class LogContactListInteraction {
+    public Enum ContactListLayouts { TABLE, CARD }
     
     @AuraEnabled
-    public static void logInteraction(String type) {
+    public static void log(String type) {
         try {
            IsvPartners.AppAnalytics.logCustomInteraction(getInteractionLabel(type)); 
         } catch (Exception e) {
@@ -10,11 +10,11 @@ public class logInteraction {
         }
     }
 
-    private static ViewLayouts getInteractionLabel(String type) {
+    private static ContactListLayouts getInteractionLabel(String type) {
         if (type.toLowerCase() == 'table') {
-            return ViewLayouts.TABLE;
+            return ContactListLayouts.TABLE;
         } else if (type.toLowerCase() == 'card') {
-            return ViewLayouts.CARD;
+            return ContactListLayouts.CARD;
         } 
         return null;
     }

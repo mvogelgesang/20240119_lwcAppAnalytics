@@ -1,6 +1,8 @@
 # lwcAppAnalytics
 
-Provide a working example of an LWC invoking custom interaction log methods for App Analytics
+Provide a working example of an LWC invoking custom interaction log methods for App Analytics.
+
+Acme Corp is offering new layouts for their components which show a list of records. As they have just started rolling out this functionality, they want to see whether users are switching to the new layout. The following example containts a Lightning Web Component, contactList, which offers two layouts: table and card. When the user switches between the layouts by pressing the appropriate button, an Apex call is made to log the event.
 
 ## TO DO
 

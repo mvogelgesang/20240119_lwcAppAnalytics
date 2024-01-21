@@ -1,6 +1,6 @@
 import { LightningElement, wire, api } from "lwc";
 import { getRelatedListRecords } from "lightning/uiRelatedListApi";
-import logInteraction from "@salesforce/apex/logInteraction.logInteraction";
+import logInteraction from "@salesforce/apex/LogContactListInteraction.log";
 
 export default class ContactList extends LightningElement {
   @api recordId;

@@ -1,11 +1,11 @@
 @isTest
-public class logInteractionTest {
+public class LogContactListInteractionTest {
     @isTest
-    static void testLogInteraction() {
+    static void testLogInteractionValid() {
         Test.startTest();
         try {
-            logInteraction.logInteraction('table');
-            logInteraction.logInteraction('Card');
+            LogContactListInteraction.log('table');
+            LogContactListInteraction.log('Card');
         } catch (Exception e) {
             System.assert(false, 'No exception should have been thrown');
         }
@@ -16,7 +16,7 @@ public class logInteractionTest {
     static void testLogInteractionNull() {
         Test.startTest();
         try {
-            logInteraction.logInteraction(null);
+            LogContactListInteraction.log(null);
         } catch (Exception e) {
             System.assert(true, 'An exception was thrown as expected');
         }
